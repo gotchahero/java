@@ -3,3 +3,9 @@
 # no .metadata for remove eclipse history etc...
 *.metadata
 *.metadata/
+
+.classpath
+.project
+.settings
+bin
+build
