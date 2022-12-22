@@ -1,0 +1,4 @@
+
+public class Main {
+	System.out.Print("Hello World\n");
+}

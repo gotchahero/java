@@ -1,0 +1,8 @@
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.print("Hello World\n");
+	}
+}
+// ctrl+shift+f ==> 자동 들여쓰기
+// F11 OR CRTL+F11 OR 프로젝트 우클릭 RUN AS ~ 컴
