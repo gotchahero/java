@@ -1,0 +1,4 @@
+# : comment
+
+# no .metadata for remove eclipse history etc...
+*.metadata
