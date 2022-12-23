@@ -15,6 +15,16 @@ public class Main {
 			System.out.printf("명령어) ");
 			String cmd = sc.nextLine();
 			
+			if(cmd.equals("article list")) {
+				article_list();
+			}
+			else if(cmd.equals("write")) {
+				article_read();
+			}
+			else {
+				System.out.println("존재하지 않은 명령어입니다.")
+			}
+		
 			if(cmd.equals("exit")) {
 				break;
 			}
