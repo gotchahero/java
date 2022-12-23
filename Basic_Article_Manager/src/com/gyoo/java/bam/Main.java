@@ -11,19 +11,18 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		//사용자 입력 받기
 		
-		String cmd = sc.nextLine();
-		cmd = sc.nextLine();
-		
-		Scanner as = new Scanner(System.in);
-		int asd = as.nextInt();
-		
-		System.out.println(cmd);
-		System.out.println(asd);
+		while(true) {
+			System.out.printf("명령어) ");
+			String cmd = sc.nextLine();
+			
+			if(cmd.equals("exit")) {
+				break;
+			}
+		}
 		
 		System.out.println("== 프로그램 끝 ==");
 		
 		sc.close();
-		as.close();
 	}
 }
 //ctrl+space ==> 자동완성
